@@ -1,8 +1,3 @@
-h1 {
-    color:rgb(160, 44, 2);
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 h2 {
     color:rgb(16, 72, 16);
     font-family: cursive;
@@ -11,6 +6,67 @@ h3 {
     color:rgb(12, 0, 91);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+  .block {background: lightgoldenrodyellow;
+    width: 100vmax;
+    padding: 3px;
+    text-align: left;
+  }
+
+  .baby {
+    margin: auto;
+    width: 600px;
+    background-color: aquamarine;
+  }
+
+  .paper {
+    margin: auto;
+    width: 600px;
+    background-color: aquamarine;
+  }
+
+  .pic1 {
+    margin: auto;
+    width: 600px;
+    height: 50px;
+    vertical-align:-140%;
+  }
+
+  .baby,
+  .paper,
+  .pic1 {
+    border: 2px red;
+    padding: 6px;
+    width: 270px;
+    display: inline-block;
+  }
+
+  .pantry {
+    margin: auto;
+    width: 600px;
+    background-color: aquamarine;
+  }
+
+  .fridge {
+    margin: auto;
+    width: 600px;
+    background-color: aquamarine;
+  }
+
+  .pic2 {
+    margin: auto;
+    width: 600px;
+    height: 50px;
+  }
+
+  .pantry,
+  .fridge,
+  .pic2 {
+    border: 2px red;
+    padding: 6px;
+    width: 270px;
+    display: inline-block;
+  }
+
 /* .ggroup { 
     padding: 60px;
     text-align: center;
